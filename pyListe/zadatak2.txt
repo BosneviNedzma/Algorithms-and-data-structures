@@ -1,0 +1,11 @@
+class ProsirenaPyNizLista:
+	
+	def dajMaksimum:
+		if self.duzina == 0
+			print("Struktura je prazna")
+		else
+		    max = int(0)
+			for i in range (self.duzina)
+				if i>max
+					max = i
+			print("Najveci element je: " + str(max))
